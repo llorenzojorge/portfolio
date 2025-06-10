@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font-asap: "Asap", sans-serif;
+    --font-inconsolata: "Inconsolata", monospace;
+    --font-maven: "Maven Pro", sans-serif;
+
+    --text-asap-lg: 700 56px/120% var(--font-asap);
+    --text-asap-md: 700 24px/120% var(--font-asap);
+    --text-asap-sm: 700 16px/120% var(--font-asap);
+
+    --subtitle: 20px/120% var(--font-inconsolata);
+
+    --text-maven-md: 16px/140% var(--font-maven);
+    --text-maven-sm: 14px/140% var(--font-maven);
+
+}
