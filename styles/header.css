@@ -1,0 +1,22 @@
+#info {
+    header {
+        /* max-width: 680px;
+        display: flex;
+        flex-direction: column;
+        gap: 56px;
+        justify-content: center;
+        padding-block: 120px 183px;
+        padding-inline: 243px; */
+        
+        img {
+            max-width: 87px;
+            aspect-ratio: 1/1;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+    
+        #text {
+            
+        }
+    }
+}
