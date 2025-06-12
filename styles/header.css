@@ -1,22 +1,22 @@
-#info {
-    header {
-        /* max-width: 680px;
-        display: flex;
-        flex-direction: column;
-        gap: 56px;
-        justify-content: center;
-        padding-block: 120px 183px;
-        padding-inline: 243px; */
-        
+#intro {
+    width: 100%;
+    /* min-height: 100vh; */
+    padding-block: 120px 183px;
+    background-image: url(../assets/images/Background_Intro.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    #info {
+        max-width: 1040px;
+        margin-inline: auto;
+        border: 1px solid black;
+
         img {
             max-width: 87px;
             aspect-ratio: 1/1;
             object-fit: cover;
             border-radius: 50%;
         }
-    
-        #text {
-            
-        }
+        
     }
 }

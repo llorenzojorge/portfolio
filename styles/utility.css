@@ -1,3 +1,19 @@
 .red {
     color: var(--red);
 }
+
+.subtitle {
+    font: var(--subtitle);
+}
+
+.text-asap-lg {
+    font: var(--text-asap-lg);
+}
+
+.gray-500 {
+    color: var(--gray-500);
+}
+
+.gray-600 {
+    color: var(--gray-600);
+}

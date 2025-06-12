@@ -44,3 +44,7 @@ a {
 a:hover {
     border: 1.5px solid var(--blue);
 }
+
+ul {
+    list-style: none;
+}
