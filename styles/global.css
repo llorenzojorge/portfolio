@@ -48,3 +48,7 @@ a:hover {
 ul {
     list-style: none;
 }
+
+.container {
+    background-color: var(--gray-200);
+}

@@ -1,13 +1,26 @@
+/* CORES */
 .red {
     color: var(--red);
 }
 
-.subtitle {
-    font: var(--subtitle);
+.purple {
+    color: var(--purple);
 }
 
-.text-asap-lg {
-    font: var(--text-asap-lg);
+.blue {
+    color: var(--blue);
+}
+
+.green {
+    color: var(--green);
+}
+
+.yellow {
+    color: var(--yellow);
+}
+
+.gray-400 {
+    color: var(--gray-400);
 }
 
 .gray-500 {
@@ -16,4 +29,26 @@
 
 .gray-600 {
     color: var(--gray-600);
+}
+
+/* FONTES */
+.subtitle {
+    font: var(--subtitle);
+}
+
+.text-asap-lg {
+    font: var(--text-asap-lg);
+}
+
+.text-maven-sm {
+    font: var(--text-maven-sm);
+}
+
+/* FLEX */
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
 }
