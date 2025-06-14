@@ -40,6 +40,18 @@
     font: var(--text-asap-lg);
 }
 
+.text-asap-md {
+    font: var(--text-asap-md);
+}
+
+.text-asap-sm {
+    font: var(--text-asap-sm);
+}
+
+.text-maven-md {
+    font: var(--text-maven-md);
+}
+
 .text-maven-sm {
     font: var(--text-maven-sm);
 }
@@ -51,4 +63,18 @@
 
 .flex-column {
     flex-direction: column;
+}
+
+/* GRID */
+
+.grid {
+    display: grid;
+}
+
+/* EFEITO IMAGEM BLOQUEADA */
+.img-block {
+    filter: grayscale(100%) brightness(60%);
+    opacity: 0.7;
+    pointer-events: none; /* impede interação */
+    transition: filter 0.3s ease, opacity 0.3s ease;
 }

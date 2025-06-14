@@ -36,6 +36,10 @@
     --gray-600: #E2E4E9; 
 }
 
+body {
+    color: var(--gray-500);
+}
+
 a {
     background-color: var(--gray-300);
     border-radius: 8px;
