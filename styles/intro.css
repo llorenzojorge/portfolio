@@ -7,6 +7,14 @@
     background-repeat: no-repeat;
     background-size: contain;
 
+    & > img {
+        position: absolute;
+        width: 32px;
+        height: 32px;
+        left: calc(50% - 32px/2);
+        top: 661px;
+    }
+
     #info {
         max-width: 1040px;
         margin-inline: auto;
