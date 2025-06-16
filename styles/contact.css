@@ -1,8 +1,37 @@
 #contact {
     max-width: 1366px;
+    margin-inline: auto;
+    padding-inline: 120px;
+    padding-block: 128px 200px;
+    gap: 48px;
+
     background-image: url(../assets/images/Background_Contacts.png);
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
 
+    header {
+        max-width: 420px;
+        margin-inline: auto;
+        gap: 8px;
+        text-align: center;
+    }
+
+    ul {
+        gap: 16px;
+        max-width: 400px;
+        margin-inline: auto;
+
+
+        li {
+            width: 400px;
+            padding: 20px;
+            align-items: center;
+            
+            background-color: var(--gray-300);
+            border-radius: 8px;
+
+        }
+
+    }
 }
