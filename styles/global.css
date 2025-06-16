@@ -41,8 +41,8 @@ body {
 }
 
 a {
-    background-color: var(--gray-300);
-    border-radius: 8px;
+    text-decoration: none;
+    color: inherit;
 }
 
 a:hover {
