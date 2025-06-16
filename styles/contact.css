@@ -2,13 +2,12 @@
     max-width: 1366px;
     margin-inline: auto;
     padding-inline: 120px;
-    padding-block: 128px 200px;
+    padding-block: 128px 180px;
     gap: 48px;
 
     background-image: url(../assets/images/Background_Contacts.png);
     background-repeat: no-repeat;
-    background-position: top center;
-    background-size: cover;
+    background-size: contain;
 
     header {
         max-width: 420px;
@@ -22,15 +21,25 @@
         max-width: 400px;
         margin-inline: auto;
 
-
         li {
             width: 400px;
             padding: 20px;
-            align-items: center;
-            
             background-color: var(--gray-300);
             border-radius: 8px;
 
+            a {
+                justify-content: flex-start;
+                align-items: center;
+
+                span {
+                    padding-left: 12px;
+                }
+
+                & > img:last-child{
+                    margin-left: auto;
+                }
+            }
+            
         }
 
     }
